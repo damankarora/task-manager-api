@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TodoController {
 
-    @GetMapping("/")
-    public String index(@RequestParam(value = "name", defaultValue = "World")String name){
-        return "Hello, "+name+". Welcome to ToDo API";
-    }
+//    @GetMapping("/")
+//    public String index(@RequestParam(value = "name", defaultValue = "World")String name){
+//        return "Hello, "+name+". Welcome to ToDo API";
+//    }
 }
